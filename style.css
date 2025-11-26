@@ -1,5 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
 img {
+    image-rendering: crisp-edges;
+    image-rendering: optimizeQuality;
+    image-rendering: pixelated;
     display: block;
-    margin: 0 auto;
+    margin: auto;
     border: 5px solid #000000;
 }
